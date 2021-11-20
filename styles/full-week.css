@@ -1,0 +1,62 @@
+header {
+    margin-bottom: 0px;
+}
+
+h1 {
+  font-size: 40px;
+  color: rgb(201, 190, 188);
+  margin: 12px 0;
+}
+
+#page-description {
+    margin: 24;
+}
+
+/* target all 'p' descendant of header */
+/* header p {
+  margin-bottom: 0px;
+} */
+
+a {
+  padding: 2px 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: 2px solid rgb(33, 106, 202);
+  font-size: 15x;
+  display: inline-block;
+  margin: 12px 0px;
+}
+
+/* a:hover {
+  background-color: rgb(255, 166, 0);
+} */
+ol {
+  font-family: "Ariel", sans-serif;
+  list-style: none;
+  color: rgb(170, 111, 0);
+  width: 500px;
+  margin: 36px auto 0 auto;
+  padding: 0;
+}
+
+li {
+  margin: 20px;
+  padding: 16px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+  box-shadow: 4px 4px 2px rgb(170, 111, 0);
+}
+
+/* Target children of the lists */
+li > h2 {
+  color: rgb(141, 63, 0);
+}
+
+/* li > p {
+    color: rgb(71, 29, 22)
+} */
+
+/* target a class */
+/* .highlight-goal {
+  background: rgb(0, 0, 0);
+} */

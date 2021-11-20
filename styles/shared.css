@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  background-color: rgb(61, 61, 61);
+}
+
+h1 {
+  font-family: "Oswald", sans-serif; /* Here is a CSS comment */ 
+  color: rgb(0, 0, 0);
+}
+
+p {
+  font-family: "Ariel", sans-serif;
+  color: rgb(255, 166, 0);
+  margin: 20px;
+}
+
+a {
+  color: rgb(216, 73, 73);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
